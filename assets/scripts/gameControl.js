@@ -85,7 +85,7 @@ cc.Class({
     gainScore() {
         this.score += 1;
         // 更新文案
-        this.scoreLabel.string = 'Scosre: ' + this.score;
+        this.scoreLabel.string = 'Score: ' + this.score;
     },
     // game over
     gameOver() {
